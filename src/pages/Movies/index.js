@@ -40,11 +40,10 @@ const Movies = () => {
         />
       )}
       {/* element to handle scroll to the bottom to trigger fetch the next page*/}
-      {(isFetching || hasNextPage) && !isFetchingNextPage && (
-        <div ref={ref} className="text-center py-5">
-          <Loading />
-        </div>
-      )}
+      <div className="text-center py-4 mt-4">
+        {hasNextPage && <div ref={ref}></div>}
+        {(isFetching || isFetchingNextPage) && <Loading />}
+      </div>
     </>
   );
 };
