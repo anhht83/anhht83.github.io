@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/anhht83.github.io/static/css/main.5464e5cf.css",
+    "main.js": "/anhht83.github.io/static/js/main.08f88019.js",
+    "static/js/703.47ab9e1c.chunk.js": "/anhht83.github.io/static/js/703.47ab9e1c.chunk.js",
+    "static/js/173.a4ed8703.chunk.js": "/anhht83.github.io/static/js/173.a4ed8703.chunk.js",
+    "static/js/196.c003d85a.chunk.js": "/anhht83.github.io/static/js/196.c003d85a.chunk.js",
+    "static/js/787.58c43060.chunk.js": "/anhht83.github.io/static/js/787.58c43060.chunk.js",
+    "static/js/793.854eabfa.chunk.js": "/anhht83.github.io/static/js/793.854eabfa.chunk.js",
+    "static/js/431.90780c33.chunk.js": "/anhht83.github.io/static/js/431.90780c33.chunk.js",
+    "static/js/238.b21817d0.chunk.js": "/anhht83.github.io/static/js/238.b21817d0.chunk.js",
+    "static/js/861.883d2764.chunk.js": "/anhht83.github.io/static/js/861.883d2764.chunk.js",
+    "static/media/movie-placeholder.png": "/anhht83.github.io/static/media/movie-placeholder.a3da014746c0e0796a78.png",
+    "index.html": "/anhht83.github.io/index.html",
+    "main.5464e5cf.css.map": "/anhht83.github.io/static/css/main.5464e5cf.css.map",
+    "main.08f88019.js.map": "/anhht83.github.io/static/js/main.08f88019.js.map",
+    "703.47ab9e1c.chunk.js.map": "/anhht83.github.io/static/js/703.47ab9e1c.chunk.js.map",
+    "173.a4ed8703.chunk.js.map": "/anhht83.github.io/static/js/173.a4ed8703.chunk.js.map",
+    "196.c003d85a.chunk.js.map": "/anhht83.github.io/static/js/196.c003d85a.chunk.js.map",
+    "787.58c43060.chunk.js.map": "/anhht83.github.io/static/js/787.58c43060.chunk.js.map",
+    "793.854eabfa.chunk.js.map": "/anhht83.github.io/static/js/793.854eabfa.chunk.js.map",
+    "431.90780c33.chunk.js.map": "/anhht83.github.io/static/js/431.90780c33.chunk.js.map",
+    "238.b21817d0.chunk.js.map": "/anhht83.github.io/static/js/238.b21817d0.chunk.js.map",
+    "861.883d2764.chunk.js.map": "/anhht83.github.io/static/js/861.883d2764.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5464e5cf.css",
+    "static/js/main.08f88019.js"
+  ]
+}
