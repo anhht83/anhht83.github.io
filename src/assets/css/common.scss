@@ -28,7 +28,7 @@ main {
   background-position: top center;
 
   @include media-breakpoint-down(sm) {
-    height: auto;
+    height: auto !important;
   }
 }
 .movies-item-img{

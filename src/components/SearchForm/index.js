@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
+import { ROUTES } from '../../constants/routes';
 
 function SearchForm() {
   const navigate = useNavigate();
@@ -15,7 +16,7 @@ function SearchForm() {
     }
   };
 
-  const handleSearch = () => navigate(`/?txtSearch=${txtSearch}`);
+  const handleSearch = () => navigate(`${ROUTES.MOVIES}?txtSearch=${txtSearch}`);
 
   return (
     <div className="d-flex">

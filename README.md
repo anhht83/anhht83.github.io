@@ -31,5 +31,11 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
+### Deploy
+
+#### Github page
+- Set `homepage` property to your root app in `package.json`
+- Run `yarn deploy` script to deploy the app to Github page
+
+Your app is ready to be deployed!
