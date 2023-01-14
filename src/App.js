@@ -1,8 +1,7 @@
 import React, { lazy, Suspense } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import queryClient from './apis/queryClient';
 import { QueryClientProvider } from 'react-query';
-import { ROUTES } from './constants/routes';
 
 const DefaultLayout = lazy(() => import('./layouts/DefaultLayout'));
 const Movies = lazy(() => import('./pages/Movies'));
@@ -12,14 +11,14 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <Suspense fallback={<div>Loading...</div>}>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
-            <Route path={ROUTES.MOVIES} element={<DefaultLayout />}>
+            <Route path="/" element={<DefaultLayout />}>
               <Route index element={<Movies />} />
-              <Route path={ROUTES.MOVIE} element={<Movie />} />
+              <Route path="/:id" element={<Movie />} />
             </Route>
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </Suspense>
     </QueryClientProvider>
   );

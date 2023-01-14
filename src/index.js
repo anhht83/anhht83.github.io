@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './assets/css/style.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
